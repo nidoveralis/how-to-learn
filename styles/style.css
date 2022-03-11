@@ -16,6 +16,9 @@
   background-color: #f2f2f2;
   position: relative;
   /* выше установили ограничения для секции */
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
 }
 
 .logo {
@@ -34,14 +37,9 @@
 
 .header__title {
   max-width: 730px;
-  height: 100%;
   line-height: 96px;
   font-size: 102px;
   font-weight: 600;
-  display: flex;
-  flex-direction: column;
-  align-items: flex-start;
-  justify-content: center;
   margin: 0 0 0 64px;
   z-index: 2;
   position: relative;
@@ -187,7 +185,7 @@
 
 .feynman {
   background-color: #f2f2f2;
-  height: 890px;
+  min-height: 890px;
   background-image: url("../images/feynman.png");
   background-repeat: no-repeat;
   background-position: left bottom;
