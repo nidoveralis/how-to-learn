@@ -7,4 +7,13 @@
     line-height: 51px;
     font-size: 36px;
     font-weight: 400;
+    transition: opacity .5s linear;
+    -webkit-transition: opacity .5s linear;
+    -moz-transition: opacity .5s linear;
+    -ms-transition: opacity .5s linear;
+    -o-transition: opacity .5s linear;
+}
+
+.feynman__link:hover {
+    opacity: .4;
 }

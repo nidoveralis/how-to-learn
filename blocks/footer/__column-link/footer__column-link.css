@@ -2,4 +2,13 @@
     text-decoration: none;
     color: #fff;
     line-height: 30px;
-  }
+    transition: opacity .5s linear;
+    -webkit-transition: opacity .5s linear;
+    -moz-transition: opacity .5s linear;
+    -ms-transition: opacity .5s linear;
+    -o-transition: opacity .5s linear;
+}
+
+.footer__column-link:hover {
+  opacity: .4;
+}

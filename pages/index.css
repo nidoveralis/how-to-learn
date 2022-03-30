@@ -5,6 +5,7 @@
 @import url("../blocks/header/__title/header__title.css");
 @import url("../blocks/header/__main-illustration/header__main-illustration.css");
 @import url("../blocks/header/__square-pic/header__square-pic.css");
+@import url("../blocks/rotation/rotation.css");
 @import url("../blocks/logo/logo.css");
 @import url("../blocks/logo/_place/logo_place_header.css");
 @import url("../blocks/two-columns/two-columns.css");
