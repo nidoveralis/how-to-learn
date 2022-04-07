@@ -8,6 +8,4 @@
     background-size: contain;
     z-index: 0;
     top: 0;
-    animation: rotation 20s linear infinite;
-    -webkit-animation: rotation 20s linear infinite;
   }

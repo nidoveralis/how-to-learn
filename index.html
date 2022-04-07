@@ -4,7 +4,7 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Научиться учиться</title>
-  <link rel="stylesheet" href="./index.css">
+  <link rel="stylesheet" href="./pages/index.css">
 </head>
 <body>
   <div class="page">
@@ -13,7 +13,7 @@
       <h1 class="header__title">Научиться учиться</h1>
       <p class="header__subtitle">Какие современные и эффективные подходы к обучению 
         вы можете использовать в своей жизни? <a href="#" class="header__link">Узнать →</a></p>
-      <div class="header__square-pic"></div>      
+      <div class="header__square-pic rotation"></div>      
       <div  class="header__main-illustration"></div>
       
     </header>
@@ -25,9 +25,9 @@
             <p class="two-columns__paragraph">Ни в школе, ни в институте нас не учат тому,
               как правильно изучать материал. Мы готовимся к экзаменам и учим билеты. Мы 
               трунируемся решать однообразные задачи, чтобы лучше сдать тест, но часто в итоге 
-              это не дает нам реального знания. Зубрежка бысто выветривается и не приносит пользы.</p>
+              это не дает нам реального знания. Зубрежка быстро выветривается и не приносит пользы.</p>
             <p class="two-columns__paragraph"><span class="two-columns__span-accent">Вывод:</span> учиться
-              тоже нужно уметь, но почему-то этому мало где учат. Что с эти делать?</p>
+              тоже нужно уметь, но почему-то этому мало где учат. Что с этим делать?</p>
             <p class="two-columns__paragraph">Конкретные техники и упражнения помогают изменить
               подход к обучению, сделать его эффективным и захватывающим. Эти же техники применяются
               на примере обучения в Практикуме.</p>
@@ -38,47 +38,51 @@
       <section class="techniques">
         <h2 class="section-title">Техники обучения</h2>
         <p class="section-subtitle">Пять практик от Барбары Оакли</p>
-        <div class="cards">
-            <div class="cards__item">
+        <ul class="cards">
+            <li class="cards__item">
               <img class="cards__image" src="./images/cards-attention.png" alt="Виды внимания">
               <h3 class="cards__title">Два вида внимания</h3>
                 <p class="cards__description">Глубокие знания возникают, если 
                   чередовать сфокусированное и рассеянное мышление.</p>
-            </div>
-            <div class="cards__item">
+                </li>
+            <li class="cards__item">
               <img class="cards__image" src="./images/cards-recall.png" alt="Повторять изученое">
               <h3 class="cards__title">Recall</h3>
                 <p class="cards__description">Вспоминайте изученное — это позволит 
                   соединить разрозненные порции памяти.</p>
-            </div>
-            <div class="cards__item">
+                </li>
+            <li class="cards__item">
               <img class="cards__image" src="./images/cards-interliving.png" alt="Интерливинг">
               <h3 class="cards__title">Интерливинг</h3>
                 <p class="cards__description">Изучайте несколько навыков одновременно,
                    они обогащают друг друга.</p>
-            </div>
-            <div class="cards__item">
+                </li>
+            <li class="cards__item">
               <img class="cards__image" src="./images/cards-question.png" alt="Вопросы">
               <h3 class="cards__title">Вопросы</h3>
                 <p class="cards__description">Слушая преподавателя, придумывайте хороший
                    вопрос, который вас действительно волнует.</p>
-            </div>
-            <div class="cards__item">
+                </li>
+            <li class="cards__item">
               <img class="cards__image" src="./images/cards-competence.png" alt="Иллюзия компетентности">
               <h3 class="cards__title">Иллюзия компетентности</h3>
                 <p class="cards__description">Повторите про себя, запишите, расскажите другу:
                    вам только кажется, что вы владеете новой темой.</p>
-            </div>
-        </div>
+                </li>
+              </ul>
       </section>
 
       <section class="video">
         <h2 class="section-title">Видео нa TED</h2>
         <p class="section-subtitle">Для тех, кто любит прокрастинировать</p>
-        <div class="video__iframes">
-          <iframe  class="video__iframe"  src="https://www.youtube.com/embed/5MgBikgcWnY"  allowfullscreen></iframe>
-          <iframe class="video__iframe"  src="https://www.youtube.com/embed/arj7oStGLkU"  allowfullscreen></iframe>
-        </div>
+        <ul class="video__iframes">
+          <li>
+            <iframe  class="video__iframe"  src="https://www.youtube.com/embed/5MgBikgcWnY"  allowfullscreen></iframe>
+          </li>
+          <li>
+            <iframe class="video__iframe"  src="https://www.youtube.com/embed/arj7oStGLkU"  allowfullscreen></iframe>
+          </li>
+        </ul>
       </section>
 
       <section class="oakley">
@@ -151,10 +155,10 @@
               нужно прочитать всем, кто занимается образованием — так учащиеся 
               повсюду смогут получить навыки и знания, которые приносят успех в 
               школе, карьере и жизни.</p>
-          <p class="khan__quote-author">Джордж Лукас</p>
+          <h3 class="khan__quote-author">Джордж Лукас</h3>
           <p class="khan__quote-author-subline">Кинорежиссер, продюсер</p>
           <div class="khan__book-container">
-            <div class="khan__book-pic"></div>
+            <img class="khan__book-pic" src="./images/khan-book.jpg" alt="Обложка книги">
             <a href="#" class="khan__buy-link">Купить книгу →</a>
           </div>
         </div>
@@ -170,7 +174,7 @@
             </div>
             <div class="table__cell table__cell_theme_dark">
               <h3 class="table__heading">2</h3>
-                <p class="table__text">Сосредоточтесь, на каком-то одном навыке.</p>
+                <p class="table__text">Сосредоточьтесь, на каком-то одном навыке.</p>
             </div>
             <div class="table__cell table__cell_theme_dark">
               <h3 class="table__heading">3</h3>
@@ -186,7 +190,7 @@
             </div>
             <div class="table__cell table__cell_theme_dark">
               <h3 class="table__heading">6</h3>
-                <p class="table__text">Устраните припятствия для знаний.</p>
+                <p class="table__text">Устраните препятствия для знаний.</p>
             </div>
             <div class="table__cell table__cell_theme_dark">
               <h3 class="table__heading">7</h3>
@@ -206,7 +210,7 @@
                     <p class="table__text">Уделяйте внимание количеству и скорости.</p>
                 </div>
           </div>
-          <div class="kaufman__triangle"></div>
+          <div class="kaufman__triangle rotation"></div>
         
       </section>
       <section class="resources">
